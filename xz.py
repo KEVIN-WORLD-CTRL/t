@@ -10,7 +10,7 @@ except:
 import requests
 bit = platform.architecture()[0]
 if bit == "64bit":
-        from dj import sf
+        from xk import sf
         sf()
 elif bit == "32bit":
         from dj import sf
